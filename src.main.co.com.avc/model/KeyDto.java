@@ -33,8 +33,8 @@ import lombok.Setter;
 @Getter
 @Setter
 @Introspected
-@SerdeImport(PersonDto.class)
-public class PersonDto {
+@SerdeImport(KeyDto.class)
+public class KeyDto {
 
     /**
     * Tipo de documento

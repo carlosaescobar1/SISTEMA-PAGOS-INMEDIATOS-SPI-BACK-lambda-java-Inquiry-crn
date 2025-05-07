@@ -35,8 +35,8 @@ import lombok.Setter;
 @Setter
 @Getter
 @Introspected
-@SerdeImport(InputRqCust.class)
-public class InputRqCust {
+@SerdeImport(InputRqInquiry.class)
+public class InputRqInquiry {
 
     /**
      * valor de la llave
