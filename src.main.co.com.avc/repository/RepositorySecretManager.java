@@ -1,8 +1,8 @@
 package co.com.ath.repository;
 
-import co.com.ath.commons.util.SecretManagerUtil;
-import co.com.ath.constants.GestionEnum;
-import co.com.ath.model.SecretManagerDto;
+import co.com.avc.commons.util.SecretManagerUtil;
+import co.com.avc.constants.GestionEnum;
+import co.com.avc.model.SecretManagerDto;
 import com.google.gson.JsonObject;
 import lombok.AllArgsConstructor;
 

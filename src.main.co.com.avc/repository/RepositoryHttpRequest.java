@@ -1,4 +1,4 @@
-package co.com.ath.repository;
+package co.com.avc.repository;
 
 import co.com.ath.commons.util.ATHException;
 import co.com.ath.commons.util.constants.MessagesEnum;

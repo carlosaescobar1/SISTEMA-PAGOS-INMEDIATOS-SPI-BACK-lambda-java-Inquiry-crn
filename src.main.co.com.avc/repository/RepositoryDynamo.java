@@ -1,9 +1,9 @@
-package co.com.ath.repository;
+package co.com.avc.repository;
 
 import co.com.ath.commons.util.ATHException;
-import co.com.ath.commons.util.Util;
-import co.com.ath.constants.ResponseServiceEnum;
-import co.com.ath.entity.DynamoSpiEntity;
+import co.com.avc.commons.util.Util;
+import co.com.avc.constants.ResponseServiceEnum;
+import co.com.avc.entity.DynamoSpiEntity;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper;
 import lombok.extern.slf4j.Slf4j;
 import software.amazon.awssdk.enhanced.dynamodb.DynamoDbEnhancedClient;
@@ -12,7 +12,7 @@ import software.amazon.awssdk.enhanced.dynamodb.Key;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 
-import static co.com.ath.entity.DynamoSpiEntity.TABLE_SCHEMA_DYNAMO_SPI;
+import static co.com.avc.entity.DynamoSpiEntity.TABLE_SCHEMA_DYNAMO_SPI;
 
 /**
  * Desarrollo ATH - Sistema de pagos de Bajo Valor Inmediatos (SPBVI)
@@ -50,14 +50,13 @@ public class RepositoryDynamo {
      * @param sk Clave secundaria (SK) del objeto a buscar
      * @return El objeto cargado de tipo DynamoSpiEntity
      */
-    public DynamoSpiEntity load(String id, String sk, DynamoDbEnhancedClient client, String nameTable) {
-        log.info("Inicia busqueda (load) por ID y SK en DynamoDB");
-        log.info("id" + id);
-        log.info("sk" + sk);
+    public DynamoSpiEntity load(String valueKey, DynamoDbEnhancedClient client, String nameTable) {
+        log.info("Inicia bÚsqueda valor de llave en DynamoDB");
+        log.info("id" + valueKey);
         try {
             var table = client.table(nameTable, TABLE_SCHEMA_DYNAMO_SPI);
 
-            DynamoSpiEntity dynamoSpiEntity = table.getItem(Key.builder().partitionValue(id).sortValue(sk).build());
+            DynamoSpiEntity dynamoSpiEntity = table.getItem(Key.builder().partitionValue(valueKey).build());
 
             if(dynamoSpiEntity == null) {
                 return null;
@@ -66,7 +65,7 @@ public class RepositoryDynamo {
             log.info("Objeto recuperado: " + Util.object2String(dynamoSpiEntity));
             return dynamoSpiEntity;
         } catch (Exception e) {
-            log.error("Error en la busqueda por ID y SK DynamoDB: " + e.getMessage());
+            log.error("Error en la búsqueda por valor de llave en DynamoDB: " + e.getMessage());
             throw new ATHException(ResponseServiceEnum.ERROR_TEC_EXCEPTION_DYNAMO.getServerStatusCode(),
                     ResponseServiceEnum.ERROR_TEC_EXCEPTION_DYNAMO.getStatusDesc(),
                     ResponseServiceEnum.ERROR_TEC_EXCEPTION_DYNAMO.getStatusCode());

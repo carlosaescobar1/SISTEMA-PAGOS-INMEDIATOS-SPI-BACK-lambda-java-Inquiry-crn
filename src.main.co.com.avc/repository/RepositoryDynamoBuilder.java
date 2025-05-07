@@ -1,4 +1,4 @@
-package co.com.ath.repository;
+package co.com.avc.repository;
 
 import com.amazonaws.client.builder.AwsClientBuilder;
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDB;
