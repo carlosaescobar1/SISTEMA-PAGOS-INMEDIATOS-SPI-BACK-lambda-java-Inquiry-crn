@@ -1,0 +1,68 @@
+Manifest-Version: 1.0
+Class-Path: resources/ classes/ libs/spbvi-opensearch-sync-lib-2.0-SNAPS
+ HOT.jar libs/spbvi-opensearch-logs-lib-2.0-SNAPSHOT.jar libs/spbvi-conn
+ -corner-1.0-SNAPSHOT.jar libs/spbvi-conn-redeban-2.0-SNAPSHOT.jar libs/
+ spbvi-commons-lib-2.0-SNAPSHOT.jar libs/micronaut-aws-lambda-events-ser
+ de-4.10.0.jar libs/micronaut-serde-jackson-2.14.0.jar libs/micronaut-fu
+ nction-aws-api-proxy-4.10.0.jar libs/micronaut-function-aws-custom-runt
+ ime-4.10.0.jar libs/micronaut-aws-sdk-v2-4.10.0.jar libs/micronaut-func
+ tion-aws-4.10.0.jar libs/micronaut-validation-4.9.0.jar libs/micronaut-
+ serde-support-2.14.0.jar libs/micronaut-serde-api-2.14.0.jar libs/micro
+ naut-aws-ua-4.10.0.jar libs/micronaut-servlet-core-5.2.2.jar libs/micro
+ naut-reactor-3.7.0.jar libs/micronaut-aws-common-4.10.0.jar libs/micron
+ aut-http-client-jdk-4.8.11.jar libs/jjwt-0.2.jar libs/gson-2.10.1.jar l
+ ibs/guava-33.3.1-jre.jar libs/dynamodb-enhanced-2.31.6.jar libs/ssm-2.3
+ 1.6.jar libs/secretsmanager-2.31.6.jar libs/sns-2.31.6.jar libs/opensea
+ rch-java-2.21.0.jar libs/opensearch-rest-client-2.19.1.jar libs/json-20
+ 220924.jar libs/aws-lambda-java-core-1.2.3.jar libs/aws-lambda-java-eve
+ nts-3.15.0.jar libs/aws-java-sdk-dynamodb-1.12.782.jar libs/mapstruct-1
+ .6.0.jar libs/commons-lang3-3.17.0.jar libs/micronaut-http-client-core-
+ 4.8.11.jar libs/micronaut-jackson-databind-4.8.11.jar libs/micronaut-ja
+ ckson-core-4.8.11.jar libs/micronaut-json-core-4.8.11.jar libs/micronau
+ t-http-server-4.8.11.jar libs/micronaut-function-4.8.11.jar libs/micron
+ aut-router-4.8.11.jar libs/micronaut-http-4.8.11.jar libs/micronaut-dis
+ covery-core-4.8.11.jar libs/micronaut-context-propagation-4.8.11.jar li
+ bs/micronaut-context-4.8.11.jar libs/micronaut-aop-4.8.11.jar libs/micr
+ onaut-inject-4.8.11.jar libs/logback-classic-1.5.16.jar libs/aws-java-s
+ dk-sqs-1.12.782.jar libs/aws-java-sdk-s3-1.12.782.jar libs/aws-java-sdk
+ -kms-1.12.782.jar libs/aws-java-sdk-core-1.12.782.jar libs/jmespath-jav
+ a-1.12.782.jar libs/jackson-dataformat-cbor-2.18.2.jar libs/jackson-dat
+ atype-jdk8-2.18.2.jar libs/jackson-datatype-jsr310-2.18.2.jar libs/jack
+ son-databind-2.18.2.jar libs/jackson-annotations-2.18.2.jar libs/jackso
+ n-core-2.18.2.jar libs/jakarta.annotation-api-2.1.1.jar libs/jsr305-3.0
+ .2.jar libs/dynamodb-2.31.6.jar libs/netty-nio-client-2.31.6.jar libs/n
+ etty-codec-http2-4.1.118.Final.jar libs/netty-codec-http-4.1.118.Final.
+ jar libs/netty-handler-4.1.118.Final.jar libs/netty-codec-4.1.118.Final
+ .jar libs/netty-transport-classes-epoll-4.1.118.Final.jar libs/netty-tr
+ ansport-native-unix-common-4.1.118.Final.jar libs/netty-transport-4.1.1
+ 18.Final.jar libs/netty-buffer-4.1.118.Final.jar libs/reactor-core-3.7.
+ 2.jar libs/aws-json-protocol-2.31.6.jar libs/aws-query-protocol-2.31.6.
+ jar libs/aws-core-2.31.6.jar libs/auth-2.31.6.jar libs/protocol-core-2.
+ 31.6.jar libs/regions-2.31.6.jar libs/sdk-core-2.31.6.jar libs/http-aut
+ h-2.31.6.jar libs/http-auth-aws-2.31.6.jar libs/http-auth-spi-2.31.6.ja
+ r libs/apache-client-2.31.6.jar libs/http-client-spi-2.31.6.jar libs/js
+ on-utils-2.31.6.jar libs/profiles-2.31.6.jar libs/identity-spi-2.31.6.j
+ ar libs/retries-2.31.6.jar libs/retries-spi-2.31.6.jar libs/metrics-spi
+ -2.31.6.jar libs/checksums-2.31.6.jar libs/utils-2.31.6.jar libs/micron
+ aut-core-reactive-4.8.11.jar libs/reactive-streams-1.0.4.jar libs/micro
+ naut-core-4.8.11.jar libs/httpclient5-5.4.2.jar libs/slf4j-api-2.0.16.j
+ ar libs/failureaccess-1.0.2.jar libs/checker-qual-3.43.0.jar libs/error
+ _prone_annotations-2.28.0.jar libs/endpoints-spi-2.31.6.jar libs/http-a
+ uth-aws-eventstream-2.31.6.jar libs/checksums-spi-2.31.6.jar libs/annot
+ ations-2.31.6.jar libs/httpclient-4.5.14.jar libs/httpcore-4.4.16.jar l
+ ibs/httpasyncclient-4.1.5.jar libs/httpcore-nio-4.4.16.jar libs/commons
+ -codec-1.17.1.jar libs/commons-logging-1.3.5.jar libs/yasson-2.0.2.jar 
+ libs/jakarta.json.bind-api-3.0.1.jar libs/parsson-1.1.7.jar libs/jakart
+ a.json-api-2.1.3.jar libs/joda-time-2.12.7.jar libs/hibernate-validator
+ -8.0.1.Final.jar libs/jakarta.validation-api-3.1.1.jar libs/jakarta.el-
+ 4.0.2.jar libs/jakarta.el-api-4.0.0.jar libs/jakarta.ws.rs-api-3.1.0.ja
+ r libs/commons-math3-3.6.1.jar libs/aws-lambda-java-serialization-1.1.5
+ .jar libs/netty-resolver-4.1.118.Final.jar libs/netty-common-4.1.118.Fi
+ nal.jar libs/logback-core-1.5.16.jar libs/listenablefuture-9999.0-empty
+ -to-avoid-conflict-with-guava.jar libs/j2objc-annotations-3.0.0.jar lib
+ s/jboss-logging-3.4.3.Final.jar libs/classmate-1.5.1.jar libs/eventstre
+ am-1.0.1.jar libs/third-party-jackson-core-2.31.6.jar libs/jakarta.inje
+ ct-api-2.0.1.jar libs/httpcore5-h2-5.3.3.jar libs/httpcore5-5.3.3.jar l
+ ibs/jakarta.json-2.0.0-module.jar
+Main-Class: co.com.ath.LambdaHandlerRuntime
+
