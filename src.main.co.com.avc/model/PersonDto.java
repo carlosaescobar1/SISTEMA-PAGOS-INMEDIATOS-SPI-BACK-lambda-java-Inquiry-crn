@@ -74,6 +74,12 @@ public class PersonDto {
     private String documentType;
 
     /**
+     * Nombre del Negocio
+     */
+    @JsonProperty("BusinessName")
+    private String businessName;
+
+    /**
      * Número de documento
      */
     @JsonProperty("DocumentNumber")
