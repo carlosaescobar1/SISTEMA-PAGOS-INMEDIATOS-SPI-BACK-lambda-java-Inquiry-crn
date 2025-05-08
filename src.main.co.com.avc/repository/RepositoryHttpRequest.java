@@ -2,8 +2,8 @@ package co.com.avc.repository;
 
 import co.com.ath.commons.util.ATHException;
 import co.com.ath.commons.util.constants.MessagesEnum;
-import co.com.ath.constants.ConstantsEnum;
-import co.com.ath.model.SecretManagerDto;
+import co.com.avc.constants.ConstantsEnum;
+import co.com.avc.model.SecretManagerDto;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.http.HttpHost;
 import org.apache.http.auth.AuthScope;

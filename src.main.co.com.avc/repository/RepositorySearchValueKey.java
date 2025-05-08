@@ -1,7 +1,7 @@
 package co.com.avc.repository;
 
-import co.com.avc.commons.util.ATHException;
-import co.com.avc.commons.util.constants.MessagesEnum;
+import co.com.ath.commons.util.ATHException;
+import co.com.ath.commons.util.constants.MessagesEnum;
 import co.com.avc.constants.ConstantsEnum;
 import co.com.avc.model.InputRqAccount;
 import lombok.extern.slf4j.Slf4j;

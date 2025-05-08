@@ -1,7 +1,7 @@
 package co.com.avc.mapper;
 
-import co.com.avc.commons.util.Util;
-import co.com.avc.commons.util.constants.MessagesEnum;
+import co.com.ath.commons.util.Util;
+import co.com.ath.commons.util.constants.MessagesEnum;
 import co.com.avc.constants.ConsentEnum;
 import co.com.avc.constants.PersonTypeEnum;
 import co.com.avc.constants.StatusDirectoryEnum;

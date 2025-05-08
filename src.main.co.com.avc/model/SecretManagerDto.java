@@ -1,4 +1,4 @@
-package co.com.ath.model;
+package co.com.avc.model;
 
 import io.micronaut.core.annotation.Introspected;
 import io.micronaut.serde.annotation.SerdeImport;

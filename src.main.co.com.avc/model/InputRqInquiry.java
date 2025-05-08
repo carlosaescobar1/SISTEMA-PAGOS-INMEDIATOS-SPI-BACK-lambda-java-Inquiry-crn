@@ -1,7 +1,7 @@
-package co.com.ath.model;
+package co.com.avc.model;
 
-import co.com.avc.commons.util.validations.ValueOfEnum;
-import co.com.ath.constants.CustIdentTypeEnum;
+import co.com.ath.commons.util.validations.ValueOfEnum;
+import co.com.avc.constants.CustIdentTypeEnum;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.google.gson.annotations.SerializedName;
 import io.micronaut.core.annotation.Introspected;

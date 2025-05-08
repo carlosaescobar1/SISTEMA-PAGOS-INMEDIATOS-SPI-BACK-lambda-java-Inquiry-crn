@@ -1,6 +1,6 @@
-package co.com.ath.repository;
+package co.com.avc.repository;
 
-import co.com.avc.commons.util.SecretManagerUtil;
+import co.com.ath.commons.util.SecretManagerUtil;
 import co.com.avc.constants.GestionEnum;
 import co.com.avc.model.SecretManagerDto;
 import com.google.gson.JsonObject;

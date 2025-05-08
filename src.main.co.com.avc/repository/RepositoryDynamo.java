@@ -1,7 +1,7 @@
 package co.com.avc.repository;
 
 import co.com.ath.commons.util.ATHException;
-import co.com.avc.commons.util.Util;
+import co.com.ath.commons.util.Util;
 import co.com.avc.constants.ResponseServiceEnum;
 import co.com.avc.entity.DynamoSpiEntity;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper;

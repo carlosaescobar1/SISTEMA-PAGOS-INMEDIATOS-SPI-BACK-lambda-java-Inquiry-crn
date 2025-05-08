@@ -1,4 +1,4 @@
-package co.com.ath.model;
+package co.com.avc.model;
 
 import co.com.ath.commons.util.validations.ValidDate;
 import co.com.ath.commons.util.validations.ValueOfEnum;
